@@ -1,0 +1,16 @@
+***********************************************************************************************************************************************
+
+HTTPS/SSL
+Referencia: https://github.com/denji/golang-tls
+
+Comandos para generar las llaves y certificados:
+
+	openssl genrsa -out passManagerServer.key 2048
+
+	openssl req -new -x509 -sha256 -key passManagerServer.key -out passManagerServer.crt -days 3650
+
+***********************************************************************************************************************************************
+
+Base de Datos
+
+
